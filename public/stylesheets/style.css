@@ -1,0 +1,721 @@
+
+
+
+.bg-img {
+  /* The image used */
+  background-image: url("http://localhost:3000/images/main-bg.jpg");
+  width:100%;
+  height: 655px;
+  padding: 1px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+body{
+   margin:0px;
+   padding: 0px;
+}
+nav{
+   display: flex;
+   position: absolute; 
+   overflow: hidden;
+   top:0;
+   width: 100%;
+   background-color: rgb(0, 0, 0,0.5);
+   height: auto;
+}
+/*mengatur jarak tulisan nav dari kiri/alinea*/
+.left-links{
+   flex:100px; 
+}
+.right-links{
+   padding-right:120px; 
+}
+.logo{
+   padding: 55px;
+   color:rgba(255, 255, 255, 0.977);
+   text-decoration: none;
+   font-size: 20px;
+   font-weight: bolder;
+}
+.links {
+   display: inline-block;
+   text-align: center;
+   padding: 15px;
+   color:white;
+   text-decoration: none;
+   font-size: 10px;
+   font-weight: bolder;
+}
+.links:hover {
+   border-bottom: 2px black;
+}
+.selected{
+   border-bottom: 2px black;
+}
+
+.bg-img h1{
+   color: white;
+   padding: 120px;
+   padding-bottom:20px;
+   font-size: 65px;
+   text-align:center;
+}
+
+.bg-img h3{
+   color: white;
+   padding-top:5px;
+   padding-bottom:25px;
+   font-size: 20px;
+   text-align:center;
+}
+
+
+.bg-img h6{
+   color: white;
+   font-size: 10px;
+   padding: 150px;
+}
+.bg-img button{
+   color: black;
+   background-color: rgb(238, 195, 25);
+   border: 2px solid rgb(238, 195, 25);
+   font-size: 15px;
+   transform:translate(670%,0%)
+}
+.footer0 {
+
+   position: absolute;
+   bottom:0;
+   left: 50%;
+   transform: translate(-49%, 0%);
+   color: white;
+   font-size: 10px;
+ }
+ 
+ .img {
+   bottom: 0;
+   padding-left: 2px;
+ }
+
+.thegames{
+   background-image: url("http://localhost:3000/images/the-games-bg.jpg");
+   height: 950;
+   width:1285;
+}
+
+/*SECTION STORY*/
+img {
+   position: relative;
+   z-index: 1;
+   top: 0px;
+   width:120%;
+}
+h4 {
+   position: absolute;
+   z-index: 2;
+   top: 1100px;
+   left: 70px;
+   font-size: 14px;
+   font-family:arial;
+   color: white;
+}
+h2 {
+   position: absolute;
+   z-index: 2;
+   top: 1130px;
+   left: 70px;
+   font-size: 30px;
+   font-family:arial;
+   color: white;
+}
+
+
+/*section  SLIDER */
+.container {
+   padding: 210px;
+   align-content: right;
+   margin-left: 20%;
+   
+}
+
+.slider .slick-slide {
+   border: solid 1px rgb(20, 20, 20);
+}
+
+.slider .slick-slide img {
+   width: 78%;
+}
+
+/* The hero image */
+body, html {
+   height: 100%;
+}
+
+.hero-image2 {
+/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image: linear-gradient(rgba(60, 59, 59, 0.3), rgba(53, 52, 52, 0.3)), url("http://localhost:3000/images/the-games-bg.jpg");
+
+/* Set a specific height */
+   height:100%;
+
+/* Position and center the image to scale nicely on all screens */
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text2 {
+   text-align: left;
+   position: absolute;
+   top: 35%;
+   left: 15%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 20px;
+}
+
+/*SECTION FEATURES*/
+.hero-image3 {
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:3000/images/features.jpg");
+   
+   /* Set a specific height */
+   height:600px;
+   width: 100%;
+   padding-top:150px;
+   padding-bottom:50px;
+   
+   /* Position and center the image to scale nicely on all screens */
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   }
+   
+   /* Place text in the middle of the image */
+.hero-text3 {
+   text-align: left;
+   position: absolute;
+   top: 46%;
+   left: 68%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-size: 25px;
+   font-family: tahoma;
+   }
+
+.hero-text3 h5 {
+   color: rgb(243, 224, 98);
+   }
+
+.hero-text3 h6 {
+   color: rgb(249, 249, 249);
+   line-height:0.5px;
+   font-size:13px;
+   }
+.garis_verikal{
+   border-left: 1px rgb(254, 254, 254) solid;
+   height: 125px;
+   width: 0px;
+   transform: translate(22px,-240px);
+   }
+
+/*SECTION SYSTEM REQUIREMENTS*/
+.hero-image4 {
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:3000/images/requirements.png");
+   
+   /* Set a specific height */
+   height:530px;
+   width: 100%;
+   padding-top:150px;
+   padding-bottom:50px;
+
+   /* Position and center the image to scale nicely on all screens */
+   background-position: right;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   filter: brightness(100%);
+   }
+.gradient-1 {
+   box-shadow: inset 300px 500px 800px 0px rgba(0, 0, 0);
+   height: 250px;
+   right: 200px;
+   
+   }
+      
+   
+   /* Place text in the middle of the image */
+.hero-text4 {
+   text-align: left;
+   position: absolute;
+   top:20%;
+   left: 21%;
+   transform: translate(-50%, -50%);
+   color: rgba(255, 255, 255, 0.847);
+   font-size: 28px;
+   font-family: tahoma;
+   justify-content: space-between;
+   
+   }
+.hero-text4 h1 {
+   color: rgb(252, 252, 252);
+   }
+
+.hero-text4 h6 {
+   text-align: left;
+   top:0%;
+   transform: translate(90%, 400%);
+   color: rgba(255, 255, 255, 0.821);
+   font-size: 10px;
+   font-family: tahoma;
+}
+
+
+/**grid**/
+.container-class {
+   display: grid;
+   padding:80px;
+   left: 40px;
+   grid-gap:0px;
+   justify-content:left;
+   letter-spacing: 2px;
+   font-family: TAHOMA;
+
+}
+.container-class >div {
+   border: 0.2px solid rgba(72, 71, 71, 0.755);
+   color: white;
+   padding:10px;
+   font-size:12px;
+   
+   
+   
+}
+.item-class1{
+   grid-column:1;
+   grid-row:1;
+   color: white;
+   height:100px;
+   width:220px;
+}
+.item-class2{
+   grid-column:2;
+   grid-row:1;
+   color: white;
+   height:100px;
+   width:220px;
+   left:0;
+}
+.item-class3{
+   grid-column:1;
+   grid-row:2;
+   color: white;
+   height:100px;
+   width:220px;
+}
+.item-class4{
+   grid-column:2;
+   grid-row:2;
+   color: white;
+   height:100px;
+   width:220px;
+}
+.item-class5{
+   grid-column:1 / span 2;
+   grid-row:3;
+   color: white;
+   height:110px;
+   width:462px;
+   border-bottom-right-radius: 10px;
+}
+
+.container-class h3 {
+   color:rgb(255, 214, 80);
+}
+
+
+
+
+/*SECTION TOP SCORES*/
+.hero-image5 {
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:3000/images/features.jpg");
+   
+   /* Set a specific height */
+      height:600px;
+      width: 100%;
+      padding-top:150px;
+      padding-bottom:50px;
+      line-height:px;
+   
+   /* Position and center the image to scale nicely on all screens */
+      background-position: left;
+      background-repeat: no-repeat;
+      background: size 100%;;
+      position: relative;
+   }
+   .hero-image5 {
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://localhost:3000/images/top-score-bg.png");
+   
+   /* Set a specific height */
+   height:600px;
+   width: 100%;
+   padding-top:150px;
+   padding-bottom:50px;
+   
+   /* Position and center the image to scale nicely on all screens */
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   }
+   
+   /* Place text in the middle of the image */
+.hero-text5 {
+  
+   position: absolute;
+   top: 46%;
+   left: 68%;
+   transform: translate(-250%,-100%);
+   color: rgb(248, 249, 248);
+   font-size: 60px;
+    font-family: tahoma;
+   }
+
+.hero-text5 button {
+   color: black;
+   height: 40px;
+   padding: 0px 45px;
+   text-align: center;
+   background-color: rgb(245, 201, 55);
+   border: 2px solid rgb(245, 201, 55);
+   font-size: 12px;
+   font-weight:bolder;
+   }
+
+
+.hero-text5 h6 {
+   font-size: 10px;
+   color: rgb(248, 245, 245);
+   font-size: 15px;
+   line-height:1px;
+   } 
+
+.hero-text5 h1 {
+   font-size: 25px;
+   letter-spacing: 2px;
+   font-family: tahoma;
+   } 
+
+/*Media object flexbox*/
+.media1 {
+   display: flex;
+   align-items: flex-start;
+   background: #212121;
+   padding: 50px;
+   padding-top:20px;
+   border-radius: 5px;
+   max-width: 24em;
+   max-height:15em;
+   transform: translate(150%,-40%);
+ }
+ .media-object1a {
+   z-index: 1;
+   transform: translate(-25%,-10%);
+   width: 60px;
+ }
+ .media-object1 {
+   z-index: 2;
+   transform: translate(-35%,20%);
+   border-radius: 50%;
+   width: 60px;
+ }
+
+ .media-body1 {
+   flex: 1;
+ }
+ .media-body1a {
+   transform: translate(-65%,185%);
+   width: 248px;
+   
+ }
+ .media-heading1 {
+   margin: 0 0 .5em;
+   text-align: justify;
+ }
+ .media1 h3 {
+   color: rgb(236, 217, 70);
+   text-align: left;
+ } 
+ .media1 p {
+   color: rgb(249, 247, 247);
+   font-size: 10px;
+ } 
+ .media1 p1 {
+   color: rgb(249, 247, 247);
+   font-size: 12px;
+ } 
+ .media1 p2 {
+   color: rgb(249, 247, 247);
+   font-size: 10px;
+ } 
+ .media2 {
+   display: flex;
+   align-items: flex-start;
+   background: #212121;
+   padding: 45px;
+   padding-top:20px;
+   padding-bottom: 70px;
+   margin: 0px;
+   border-radius: 5px;
+   max-width: 24em;
+   transform: translate(130%,-20%);
+ }
+ .media-object2a {
+   z-index: 1;
+   transform: translate(-10%,-10%);
+   width: 60px;
+ }
+ .media-object2 {
+   z-index: 2;
+   transform: translate(-17%,20%);
+   border-radius: 50%;
+   width: 60px;
+ }
+ .media-body2 {
+   flex: 1;
+ }
+
+ .media-body2a {
+   transform: translate(-43%,80%);
+   width: 888px;
+ }
+
+ .media-heading2 {
+   margin: 0 0 .5em;
+   justify-content: flex-start;
+ }
+ .media2 h3 {
+   color: rgb(236, 217, 70);
+   font-size: 15px;
+ } 
+ .media2 p {
+   color: rgb(222, 218, 218);
+   font-size: 10px;
+ } 
+ .media2 p1 {
+   color: rgb(249, 247, 247);
+   font-size: 14px;
+   padding-bottom:2px;
+ } 
+ .media2 p2 {
+   color: rgb(249, 247, 247);
+   font-size: 10px;
+   padding-top:2px;
+ } 
+ .media3 {
+   display: flex;
+   align-items: flex-start;
+   background: #212121;
+   padding: 60px;
+   padding-top:30px;
+   padding-bottom: 75px;
+   margin: 20px;
+   border-radius: 5px;
+   max-width: 22em;
+   transform: translate(140%,-20%);
+ }
+ .media-object3a {
+   z-index: 1;
+   transform: translate(-20%,-20%);
+   width: 60px;
+ }
+ .media-object3 {
+   z-index: 2;
+   transform: translate(-30%,30%);
+   border-radius: 50%;
+   width: 60px;
+ }
+ .media-body3 {
+   flex: 1;
+ }
+ .media-body3a {
+   transform: translate(-60%,80%);
+ }
+
+ .media-heading3 {
+   margin: 0 0 .5em;
+ } 
+ .media3 h3 {
+   color: rgb(236, 217, 70);
+   font-size: 14px;
+   text-align: justify;
+ } 
+ .media3 p {
+   color: rgb(222, 218, 218);
+   font-size: 12px;
+ } 
+ .media3 p1 {
+   color: rgb(249, 247, 247);
+   font-size: 13px;
+   text-align: left;
+   
+ } 
+ .media3 p2 {
+   color: rgb(249, 247, 247);
+   font-size: 12px;
+ }
+ .logo1 {
+   width:15px;
+   height:15px;
+   transform: translate(2040%,-10%);
+ }
+ .logo2 {
+   width:15px;
+   height:15px;
+   transform: translate(2040%,-10%);
+ }
+ .logo3 {
+   width:15px;
+   height:15px;
+   transform: translate(2040%,-10%);
+ }
+
+/*SECTION END PAGE*/
+.hero-image6 {
+   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+   background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("http://localhost:3000/images/skull.png");
+   background-color: black;
+   
+  /* Set a specific height */
+  height:560px;
+  width: 100%;
+  padding-top:100px;
+  padding-left:30px;
+  padding-bottom:185px;
+  
+  /* Position and center the image to scale nicely on all screens */
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 350px;
+  position: relative;
+  }
+   /* Place text in the middle of the image */
+.hero-text6 {
+   text-align: left;
+   position: absolute;
+   top: 30%;
+   left: 45%;
+   transform: translate(0%, 0%);
+   color: white;
+   font-size: 17px;
+   font-family: tahoma;
+   }
+.hero-text6 h6 {
+   color: rgb(250, 249, 247);
+   line-height:1px;
+   font-size:13px;
+   font-family: 'bebas neue reguler';
+   line-height:0.5px;
+   }
+.hero-text6 h1 {
+   color: rgb(247, 247, 243);
+   font-size:30px;
+   font-family: 'open sans';
+   letter-spacing: 4px;
+   }
+.boxemail h6{
+   color:rgb(251, 251, 248);
+   font-size:10px;
+}
+.boxemail text{
+   color:rgb(254, 254, 33);
+   font-size:10px;
+}
+.boxemail button{
+   color: black;
+   height: 30px;
+   padding: 2px 70px;
+   margin-left:40px;
+   text-align: center;
+   align-content: center;
+   background-color: rgb(245, 201, 55);
+   border: 2px solid rgb(245, 201, 55);
+   border-radius: 5px;
+   font-size: 12px;
+   font-weight:bolder;
+   transform: translate(30%,-20%);
+}  
+
+input[type=text] {
+   background-color:rgb(9, 9, 9);
+   color: rgb(224, 150, 13);
+   outline: none;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+   background-color: black;
+   overflow: hidden;
+   position: relative;
+   transform: translate(-40%,150%);
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .navbar a {
+   float: left;
+   display: block;
+   color: white;
+   text-align: center;
+   letter-spacing: 2px;
+   padding: 14px 10px;
+   text-decoration: none;
+   font-size: 12px;
+ }
+ 
+ /* Change the color of links on hover */
+ .navbar a:hover {
+   background-color:  #333;
+   color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .navbar a.active {
+   background-color: black;
+   color: white;
+ }
+ /* Style the links inside the footer bar */
+ .footer {
+   float: left;
+   background-color: black;
+   color:rgb(164, 161, 161);
+   font-size: 3px;
+   font-family: "beres neue";
+   overflow: hidden;
+   position: relative;
+   bottom:0;
+   transform: translate(-210%,100%);
+ }
+ .footer2 {
+   float: right;
+   background-color: black;
+   color:rgb(164, 161, 161);
+   right: 70px;
+   font-size: 10px;
+   font-family: "beres neue";
+   overflow: hidden;
+   position: relative;
+   transform: translate(30%,800%);
+ }
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Play Game</title>
+		<meta charset="UTF-8">
+		<meta name="viewport">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="http://localhost:3000/stylesheets/styleplay.css">
+	</head>
+	<body>
+    <div class="container">
+
+    <div class="header">
+        <a href="http://localhost:3000/"><img src="http://localhost:3000/images/arrow.png" class="logo"></a>
+        <img src="http://localhost:3000/images/logo.png" class="logo1" >
+        <h1> ROCK PAPER SCISSORS </h1>
+    </div>  
+
+    <div class="player">
+        <h1>PLAYER</h1>
+        <div class="option player-rotate">
+          <img src="http://localhost:3000/images/batu.png"  class="fas fa-hand-rock" onclick="rock()" id="player-rock">
+          <img src="http://localhost:3000/images/kertas.png" class="fas fa-hand-paper" onclick="paper()" id="player-paper">
+          <img src="http://localhost:3000/images/gunting.png" class="fas fa-hand-scissor" onclick="scissors()" id="player-scissors">
+        </div>
+    </div>
+
+    <div class="score-player score player-rotate" id="player_score">0</div>
+    </div>
+
+    <div class="vs">vs</div>
+
+    <div class="computer">
+        <h1>COM</h1>
+        <div class="option computer-rotate">
+          <img src="http://localhost:3000/images/batu.png"  class="fas fa-hand-rock" id="computer-rock"> 
+          <img src="http://localhost:3000/images/kertas.png" class="fas fa-hand-paper" id="computer-paper">
+          <img src="http://localhost:3000/images/gunting.png" class="fas fa-hand-scissor"  id="computer-scissors"> 
+        </div>
+    </div>   
+
+    <div class="score-computer score computer-rotate" id="computer_score">0</div>
+    </div>
+   
+    <div class="box1" id="message" >
+      VS
+    </div>
+
+    <div class="reset">
+      <img src="http://localhost:3000/images/refresh.png" class="reset" value = "Refresh" onclick="history.go(0)" />
+    </div>
+   
+  </div>
+  </div>  
+    
+    <!-- JQuery css -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- My js -->
+    <script src="http://localhost:3000/javascripts//scriptplay.js"></script>
+  </body>
+</html>   

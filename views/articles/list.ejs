@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="http://localhost:3000/stylesheets/stylelist.css">
+		<title>List</title>
+	</head>
+	<body>
+		<a href="/articles/create">Buat article baru</a> | <a href="/logout">Logout</a> <br />
+		
+
+		<table border="1">
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>Email</th>
+					<th>Password</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+				<tr>
+					<td>article.id </td>
+					<td>article.email</td>
+					<td> article.password</td>
+					<td>
+						<a href="/articles/<article.id>/update/">EDIT</a> |
+						<form action="/articles" method="POST">
+							<input type="hidden" name="method" value="DELETE" />
+							<input type="hidden" name="id" value="<article.id>" />
+							<button type="submit">DELETE</button>
+						</form>
+					</td>
+				</tr>
+
+				
+			</tbody>
+		</table>
+	</body>
+</html>

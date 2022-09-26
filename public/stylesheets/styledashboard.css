@@ -1,0 +1,25 @@
+.body {
+    align-content: center;
+}
+
+.container {
+    align-items: center;
+    margin-left:200px;
+}
+
+.h1 {
+    color:black;
+    font-style: bold ;
+    align-items: center;
+    
+}
+
+.button {
+    transition-duration: 0.4s;
+  }
+  
+.button:hover {
+    color: #c0e12f; 
+    padding:15px;
+  }
+
